@@ -1,0 +1,8 @@
+numpy==1.23.5
+pandas==1.5.3
+matplotlib
+scikit-learn
+tensorflow
+xgboost
+#tensorflow_decision_forests
+tqdm==4.64.1
