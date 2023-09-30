@@ -4,7 +4,8 @@ Forecasting ambulance demand is critical for efficient allocation of resources a
 
 ## Project Structure
 
-image.png
+![image](https://github.com/jjoonnees/Ambulance-Demand-Forecast/assets/91951551/e6668711-91f5-4e88-8b5b-60189371f16a)
+
 
 ### data:
     raw: Contains the raw data files, such as ambulance call logs, weather reports, and public holiday lists.
