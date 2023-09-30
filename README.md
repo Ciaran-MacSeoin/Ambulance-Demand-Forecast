@@ -32,25 +32,25 @@ Install the necessary libraries:
 ### 1. Data Processing
 Run the data_processing.py script to preprocess the raw data. This includes:
 
-Merging and grouping ambulance data by the hour.
+-Merging and grouping ambulance data by the hour.
 
-Generating public holiday data.
+-Generating public holiday data.
 
-Processing weather data and merging it with the ambulance dataset.
+-Processing weather data and merging it with the ambulance dataset.
 
-Calculating rolling counts for historical ambulance demand.
+-Calculating rolling counts for historical ambulance demand.
 
 
-'python scripts/data_processing.py'
+    python scripts/data_processing.py
 
 ### 2. Model Building
 Execute the model_building.py script to train forecasting models on the processed data. Models included:
 
-Deep Learning model using TensorFlow.
+-Deep Learning model using TensorFlow.
 
-XGBoost regression model.
+-XGBoost regression model.
 
-TensorFlow Decision Forests regression model.
+-TensorFlow Decision Forests regression model.
 
 
     python scripts/model_building.py
