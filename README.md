@@ -8,12 +8,13 @@ Forecasting ambulance demand is critical for efficient allocation of resources a
 
 
 ### data:
-    raw: Contains the raw data files, such as ambulance call logs, weather reports, and public holiday lists.
-    processed: Houses processed and cleaned datasets, ready for modeling.
+raw: Contains the raw data files, such as ambulance call logs, weather reports, and public holiday lists.
+
+processed: Houses processed and cleaned datasets, ready for modeling.
 ### scripts:
-    Contains various scripts responsible for data preprocessing, feature generation, and model building.
+Contains various scripts responsible for data preprocessing, feature generation, and model building.
 ### models:
-    Location where trained models are saved for later use.
+Location where trained models are saved for later use.
 ## notebooks:
 Repository of Jupyter notebooks designed for data exploration, early experimentations, and model evaluations.
 
@@ -32,8 +33,11 @@ Install the necessary libraries:
 Run the data_processing.py script to preprocess the raw data. This includes:
 
 Merging and grouping ambulance data by the hour.
+
 Generating public holiday data.
+
 Processing weather data and merging it with the ambulance dataset.
+
 Calculating rolling counts for historical ambulance demand.
 
 
@@ -43,7 +47,9 @@ Calculating rolling counts for historical ambulance demand.
 Execute the model_building.py script to train forecasting models on the processed data. Models included:
 
 Deep Learning model using TensorFlow.
+
 XGBoost regression model.
+
 TensorFlow Decision Forests regression model.
 
 
