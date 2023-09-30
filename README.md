@@ -20,9 +20,11 @@ Repository of Jupyter notebooks designed for data exploration, early experimenta
 ## Setup
 Ensure you have Python 3.10 installed.
 Navigate to the project directory: 
+
     cd Ambulance-Demand-Forecast
 Install the necessary libraries: 
-    'pip install -r requirements.txt'
+
+    pip install -r requirements.txt
 
 
 ## Workflow
@@ -45,7 +47,7 @@ XGBoost regression model.
 TensorFlow Decision Forests regression model.
 
 
-    'python scripts/model_building.py'
+    python scripts/model_building.py
 
 ## Evaluation
 Models undergo evaluation using metrics like MSE, MAE, and R^2 on test data. Dive into the notebooks directory for detailed evaluations and visualizations.
