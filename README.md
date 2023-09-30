@@ -19,8 +19,10 @@ Repository of Jupyter notebooks designed for data exploration, early experimenta
 
 ## Setup
 Ensure you have Python 3.10 installed.
-Navigate to the project directory: cd Ambulance-Demand-Forecast
-Install the necessary libraries: 'pip install -r requirements.txt'
+Navigate to the project directory: 
+    cd Ambulance-Demand-Forecast
+Install the necessary libraries: 
+    'pip install -r requirements.txt'
 
 
 ## Workflow
@@ -38,12 +40,12 @@ Calculating rolling counts for historical ambulance demand.
 ### 2. Model Building
 Execute the model_building.py script to train forecasting models on the processed data. Models included:
 
--Deep Learning model using TensorFlow.
--XGBoost regression model.
--TensorFlow Decision Forests regression model.
+Deep Learning model using TensorFlow.
+XGBoost regression model.
+TensorFlow Decision Forests regression model.
 
 
-'python scripts/model_building.py'
+    'python scripts/model_building.py'
 
 ## Evaluation
 Models undergo evaluation using metrics like MSE, MAE, and R^2 on test data. Dive into the notebooks directory for detailed evaluations and visualizations.
